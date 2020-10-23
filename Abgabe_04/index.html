@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="web-aufgabe-4-kapitel-8-Philthy-Phil">
     <link rel="stylesheet" href="_css/styles.css">
+    <link rel="stylesheet" href="_css/mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet"> 
     <title>Zoomania</title>
@@ -18,13 +19,15 @@
             <ul>
                 <li><a href="#top" title="willkommen">Willkommen</a></li>
                 <li><span class="abstand">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
-                <li><a href="#unsere-tiere" title="unsere-tiere">Unsere Tiere</a></li>
+                <li><a href="#tiere" title="tiere">Tiere</a></li>
                 <li><span class="abstand">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
                 <li><a href="#infos" title="infos">Infos</a></li>
                 <li><span class="abstand">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
                 <li><a href="#spezifikationen" title="spezifikationen">Spezifikationen</a></li>
                 <li><span class="abstand">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
                 <li><a href="#kontakt" title="Kontakt">Kontakt</a></li>
+                <li><span class="abstand">&nbsp;&nbsp;|&nbsp;&nbsp;</span></li>
+                <li><a href="#quote" title="quote">Quote</a></li>
             </ul>
         </nav>
     </header>
@@ -56,7 +59,7 @@
                 </iframe>
             </section>
         </article>
-        <article class="cont2" id="unsere-tiere">
+        <article class="cont2" id="tiere">
             <section>
                 <img src="_img/5900511104622.jpg"  title="bildchen" alt="bildchen">
             </section>
@@ -70,7 +73,7 @@
                     <dt>Säugetiere</dt>
                     <dd><a href="#" target="_blank">SäugetierA</a>, <a href="#" target="_blank">SäugetierB</a>, <a href="#" target="_blank">SäugetierC</a>, <a href="#" target="_blank">SäugetierD</a>, <a href="#" target="_blank">SäugetierE</a>, <a href="#" target="_blank">SäugetierF</a>, <a href="#" target="_blank">SäugetierG</a>, <a href="#" target="_blank">SäugetierH</a></dd>
                     <dt>Fische</dt>
-                    <dd><a href="#" target="_blank">FischA</a>, <a href="#" target="_blank">FischB</a>, <a href="#" target="_blank">FischC</a>, <a href="#"> target="_blank"FischD</a>, <a href="#" target="_blank">FischE</a>, <a href="#" target="_blank">FischF</a>, <a href="#" target="_blank">FischG</a>, <a href="#" target="_blank">FischH</a></dd>
+                    <dd><a href="#" target="_blank">FischA</a>, <a href="#" target="_blank">FischB</a>, <a href="#" target="_blank">FischC</a>, <a href="#" target="_blank"> FischD</a>, <a href="#" target="_blank">FischE</a>, <a href="#" target="_blank">FischF</a>, <a href="#" target="_blank">FischG</a>, <a href="#" target="_blank">FischH</a></dd>
                 </dl>
             </section>
         </article>
@@ -94,11 +97,11 @@
             </section>
             <section>
                 <img src="_img/dogs-catching-treats-fotos-frei-schnauze-christian-vieler-66-57e8d9d0ec7ee__880.jpg"  title="bildchen" alt="bildchen">
-                <img src="_img/dogs-catching-treats-fotos-frei-schnauze-christian-vieler-66-57e8d9d0ec7ee__880.jpg"  title="bildchen" alt="bildchen">
+                <!-- <img src="_img/dogs-catching-treats-fotos-frei-schnauze-christian-vieler-66-57e8d9d0ec7ee__880.jpg"  title="bildchen" alt="bildchen"> -->
             </section>
         </article>
         <article class="cont2" id="spezifikationen">
-                <section>
+                <section class="spezifikationen">
                     <table>
                         <thead>
                             <tr>
@@ -233,7 +236,7 @@
                         oninput="outputRange.value = inputRange.value" required>
                         
                         <output  id="outputRange"></output>   
-                        <br><span class="smaller">(0 = nicht so / 10 = sehr gut)</span>
+                        <br><span class="smaller">(1 = nicht so / 10 = sehr gut)</span>
             
                     <label for="inputEmpfehlung">Würdest du dein Zooerlebnis empfehlen:</label>
                     <input type="radio" name="inputEmpfehlung" id="inputEmpfehlung">Ja
@@ -268,7 +271,10 @@
                 <img src="_img/create-a-custom-royal-portrait-of-your-dog-and-pets.jpg"  title="bildchen" alt="bildchen">
             </section>
         </article>
-        <article class="cont3">   
+        <article class="cont3" id="quote">  
+            <section class="imgBG">
+                <img src="_img/dog-2.jpg" title="bildchen" alt="hundebild">
+            </section>
             <section class="quote">
                 <blockquote cite="#">
                     <p>Unmenschen gibt es,<br>
